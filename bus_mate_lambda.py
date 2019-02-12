@@ -177,6 +177,7 @@ LINE_M8 = 'venmo'
 
 STOP_10_A = 'Peyton'
 STOP_10_B = 'Julian'
+STOP_10_GREENWICH = 'office'
 
 DIRECTION_WEST = 'west'
 DIRECTION_EAST = 'east'
@@ -384,6 +385,68 @@ BUS_SCHEDULE = {
             datetime.time(23, 59)
         ]
       }
-    }
+    },
+    STOP_10_GREENWICH: {
+      DIRECTION_EAST: {
+        DATE_WEEKDAY: [
+            datetime.time(0,1),
+            datetime.time(0,36),
+            datetime.time(5,1),
+            datetime.time(5,31),
+            datetime.time(5,56),
+            datetime.time(6,21),
+            datetime.time(6,41),
+            datetime.time(6,54),
+            datetime.time(7,4),
+            datetime.time(7,14),
+            datetime.time(7,24),
+            datetime.time(7,34),
+            datetime.time(7,44),
+            datetime.time(7,54),
+            datetime.time(8,4),
+            datetime.time(8,14),
+            datetime.time(8,24),
+            datetime.time(8,36),
+            datetime.time(8,51),
+            datetime.time(9,11),
+            datetime.time(9,31),
+            datetime.time(9,51),
+            datetime.time(10,11),
+            datetime.time(10,31),
+            datetime.time(10,56),
+            datetime.time(11,21),
+            datetime.time(11,51),
+            datetime.time(12,21),
+            datetime.time(12,51),
+            datetime.time(13,21),
+            datetime.time(13,51),
+            datetime.time(14,21),
+            datetime.time(14,41),
+            datetime.time(15,1),
+            datetime.time(15,21),
+            datetime.time(15,41),
+            datetime.time(16,1),
+            datetime.time(16,21),
+            datetime.time(16,41),
+            datetime.time(16,56),
+            datetime.time(17,11),
+            datetime.time(17,26),
+            datetime.time(17,41),
+            datetime.time(17,56),
+            datetime.time(18,11),
+            datetime.time(18,26),
+            datetime.time(18,46),
+            datetime.time(19,6),
+            datetime.time(19,26),
+            datetime.time(19,56),
+            datetime.time(20,26),
+            datetime.time(20,56),
+            datetime.time(21,26),
+            datetime.time(21,56),
+            datetime.time(22,26),
+            datetime.time(22,56),
+            datetime.time(23,26),
+        ]
   }
 }
+}}

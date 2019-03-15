@@ -56,7 +56,7 @@ def next_two_buses(event):
     print("Line Variable: {line}".format(line=line))
     print("Stop Variable: {stop}".format(stop=stop))
     print("Direction Variable: {direction}".format(direction=direction))
-    now = datetime.datetime.now() - datetime.timedelta(hours = 5)
+    now = datetime.datetime.now() - datetime.timedelta(hours = 4)
     print(now)
     schedule_type = get_schedule_type(now)
     schedule = BUS_SCHEDULE[line][stop][direction][schedule_type]
